@@ -1,0 +1,10 @@
+version: "3"
+services:
+  ttt:
+    build: .
+#    image: abc
+    ports:
+      - "6003:6003/tcp"
+      - "7001:7001/tcp"
+      - "27005:27005/udp"
+      - "27010-27015:27010-27015/udp"
